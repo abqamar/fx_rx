@@ -1,0 +1,15 @@
+name: fx_rx_example
+description: Example app for fx_rx
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fx_rx:
+    path: ../
+
+flutter:
+  uses-material-design: true
